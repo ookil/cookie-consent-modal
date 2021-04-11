@@ -1,0 +1,53 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Roboto;
+}
+
+body.disable-scroll {
+  overflow: hidden;
+}
+
+.cc-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+}
+
+.cc-modalBox {
+  width: 45rem;
+  max-width: 85%;
+  height: auto;
+  max-height: 90%;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.cc-modal-title {
+  margin: 0;
+}
+
+.list-item {
+  position: absolute;
+  left: 0px;
+  width: calc(100% - 6px);
+}
+
+.cc-viewport {
+  scrollbar-color: #b1bccc transparent;
+  scrollbar-width: thin;
+
+  &::-webkit-scrollbar {
+    width: 5px;
+    height: 5px;
+  }
+
+  &::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background-color: #b1bccc;
+  }
+}
