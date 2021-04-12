@@ -1,5 +1,9 @@
 import { getJSON } from '../utils/utils';
-import { CookieConsentModal } from './modal';
+import {
+  CookieConsentModal,
+  CookieModalOptions,
+  defaultOptions,
+} from './modal';
 
 export const cookieStorage = {
   setItem: (name: string, value: string, daysToExpire: number = 1) => {
@@ -24,9 +28,11 @@ const getVendors = async (url: string) => {
   return res.vendors;
 };
 
-export const init = async (window: Window & typeof globalThis, url: string) => {
-  const consentName = 'gdpr_consent';
-
+export const init = async (
+  window: Window & typeof globalThis,
+  url: string,
+  options: Partial<CookieModalOptions>
+) => {
   const vendors = await getVendors(url);
 
   const cookieConsentController = new CookieConsentModal(
@@ -34,12 +40,11 @@ export const init = async (window: Window & typeof globalThis, url: string) => {
     window.document.body,
     vendors,
     {
-      cName: consentName,
-      cExpire: 1,
+      ...options,
     }
   );
 
-  if (!cookieStorage.getItem(consentName)) {
+  if (!cookieStorage.getItem(options.cName || defaultOptions.cName)) {
     getVendors(url);
     cookieConsentController.openModal();
   }

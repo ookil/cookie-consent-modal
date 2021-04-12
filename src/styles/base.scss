@@ -16,14 +16,7 @@ $blue-save: rgb(69, 118, 163);
   &.show {
     backdrop-filter: blur(2px);
     opacity: 1;
-    background-color: rgba(0, 0, 0, 0.521);
-    background-image: linear-gradient(
-      to right,
-      rgba(0, 0, 0, 0.4),
-      rgba(0, 0, 0, 0.4)
-    );
-    filter: blur(2px);
-    -webkit-filter: blur(2px);
+    background-color: rgba(0, 0, 0, 0.721);
   }
 
   &.hide {
@@ -34,7 +27,7 @@ $blue-save: rgb(69, 118, 163);
 
 .cc-modalBox {
   background-color: white;
-  box-shadow: 5px 4px 5px rgba(0, 0, 0, 0.25);
+  box-shadow: 5px 4px 5px rgb(193 181 181 / 25%);
 }
 
 .cc-modalHeader {

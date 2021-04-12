@@ -1,14 +1,14 @@
 import { cookieStorage } from './index';
 import { VirtualScroll } from './virtualScroll';
 
-type CookieModalOptions = {
+export type CookieModalOptions = {
   cName: string;
   cExpire: number;
   title: string;
   description: string;
 };
 
-const defaultOptions: CookieModalOptions = {
+export const defaultOptions: CookieModalOptions = {
   cName: 'gdpr_consent',
   cExpire: 1,
   title: 'GDRP Consent',
