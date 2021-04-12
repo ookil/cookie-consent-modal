@@ -22,7 +22,7 @@ __webpack_require__.r(__webpack_exports__);
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_cssWithMappingToString_js__WEBPACK_IMPORTED_MODULE_0___default()));
 ___CSS_LOADER_EXPORT___.push([module.id, "@import url(https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap);"]);
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, "html,\nbody {\n  margin: 0;\n  padding: 0;\n  box-sizing: border-box;\n  font-family: Roboto;\n}\n\nbody.disable-scroll {\n  overflow: hidden;\n}\n\n.cc-container {\n  position: fixed;\n  top: 0;\n  left: 0;\n  width: 100vw;\n  height: 100vh;\n}\n\n.cc-modalBox {\n  width: 45rem;\n  max-width: 85%;\n  height: auto;\n  max-height: 90%;\n  padding: 10px;\n  border-radius: 5px;\n}\n\n.cc-modal-title {\n  margin: 0;\n}\n\n.list-item {\n  position: absolute;\n  left: 0px;\n  width: calc(100% - 6px);\n}\n\n.cc-viewport {\n  scrollbar-color: #b1bccc transparent;\n  scrollbar-width: thin;\n}\n.cc-viewport::-webkit-scrollbar {\n  width: 5px;\n  height: 5px;\n}\n.cc-viewport::-webkit-scrollbar-thumb {\n  border-radius: 10px;\n  background-color: #b1bccc;\n}\n\n.cc-container {\n  z-index: 1000;\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  background-color: rgba(0, 0, 0, 0);\n  -webkit-transition: all 0.6s linear;\n  -o-transition: all 0.6s linear;\n  transition: all 300ms linear;\n}\n.cc-container.show {\n  backdrop-filter: blur(2px);\n  opacity: 1;\n  background-color: rgba(0, 0, 0, 0.521);\n}\n.cc-container.hide {\n  opacity: 0;\n  display: none;\n}\n\n.cc-modalBox {\n  background-color: white;\n  box-shadow: 5px 4px 5px rgba(0, 0, 0, 0.25);\n}\n\n.cc-modalHeader {\n  text-align: center;\n  padding: 2px 0 8px 0;\n  border-bottom: 1px solid blue;\n}\n\n.cc-description {\n  margin-top: 10px;\n  font-size: 0.9em;\n  padding: 10px 0 12px 0;\n}\n\n.cc-buttonsWrapper {\n  display: flex;\n}\n.cc-buttonsWrapper.btns-main {\n  padding: 20px 0;\n  justify-content: center;\n}\n\n.ml-auto {\n  margin-left: auto;\n}\n\n.btn {\n  cursor: pointer;\n  width: auto;\n  border-radius: 3px;\n  padding: 0.2em 0.5em;\n  background-color: white;\n  border: none;\n  box-shadow: 1px 1px 4px 0px rgba(0, 0, 0, 0.521);\n  font-family: Roboto;\n  font-size: 1em;\n}\n.btn.btn-close {\n  margin-left: 10px;\n}\n.btn.btn-close:hover {\n  background-color: #c45f5f;\n  color: white;\n}\n.btn.btn-save {\n  margin-left: 10px;\n  display: none;\n}\n.btn.btn-save.show {\n  display: block;\n}\n.btn.btn-save:hover {\n  background-color: #4576a3;\n  color: white;\n}\n.btn.accepted {\n  background-color: #4da345;\n  color: white;\n}\n@media (max-width: 425px) {\n  .btn.accepted {\n    font-size: 0.9em;\n  }\n}\n.btn.btn-accept:hover {\n  background-color: #4da345;\n  color: white;\n}\n\n.cc-viewport {\n  overflow: auto;\n  width: 100%;\n  padding-left: 5px;\n}\n\n.cc-content {\n  overflow: hidden;\n  position: relative;\n  padding-bottom: 15px;\n}\n\n.list-item {\n  display: flex;\n  align-items: center;\n  margin: 10px 0;\n  padding-right: 10px;\n}\n.list-item--info {\n  display: flex;\n  align-items: baseline;\n  flex-wrap: wrap;\n}\n.list-item--title {\n  margin: 0;\n  margin-right: 10px;\n}\n@media (max-width: 425px) {\n  .list-item--title {\n    font-size: 0.9em;\n  }\n}\n.list-item--link {\n  font-size: 0.8em;\n  text-decoration: none;\n  color: rgba(24, 24, 24, 0.575);\n}", "",{"version":3,"sources":["webpack://./src/styles/layout.scss","webpack://./src/styles/main.scss","webpack://./src/styles/base.scss"],"names":[],"mappings":"AAAA;;EAEE,SAAA;EACA,UAAA;EACA,sBAAA;EACA,mBAAA;ACEF;;ADCA;EACE,gBAAA;ACEF;;ADCA;EACE,eAAA;EACA,MAAA;EACA,OAAA;EACA,YAAA;EACA,aAAA;ACEF;;ADCA;EACE,YAAA;EACA,cAAA;EACA,YAAA;EACA,eAAA;EACA,aAAA;EACA,kBAAA;ACEF;;ADCA;EACE,SAAA;ACEF;;ADCA;EACE,kBAAA;EACA,SAAA;EACA,uBAAA;ACEF;;ADCA;EACE,oCAAA;EACA,qBAAA;ACEF;ADAE;EACE,UAAA;EACA,WAAA;ACEJ;ADCE;EACE,mBAAA;EACA,yBAAA;ACCJ;;AC/CA;EACE,aAAA;EACA,aAAA;EACA,uBAAA;EACA,mBAAA;EACA,kCAAA;EAEA,mCAAA;EACA,8BAAA;EACA,4BAAA;ADiDF;AC/CE;EACE,0BAAA;EACA,UAAA;EACA,sCAAA;ADiDJ;AC9CE;EACE,UAAA;EACA,aAAA;ADgDJ;;AC5CA;EACE,uBAAA;EACA,2CAAA;AD+CF;;AC5CA;EACE,kBAAA;EACA,oBAAA;EACA,6BAAA;AD+CF;;AC5CA;EACE,gBAAA;EACA,gBAAA;EACA,sBAAA;AD+CF;;AC5CA;EACE,aAAA;AD+CF;AC7CE;EACE,eAAA;EACA,uBAAA;AD+CJ;;AC3CA;EACE,iBAAA;AD8CF;;AC3CA;EACE,eAAA;EACA,WAAA;EACA,kBAAA;EACA,oBAAA;EACA,uBAAA;EACA,YAAA;EACA,gDAAA;EACA,mBAAA;EACA,cAAA;AD8CF;AC5CE;EACE,iBAAA;AD8CJ;AC7CI;EACE,yBAvEO;EAwEP,YAAA;AD+CN;AC3CE;EACE,iBAAA;EACA,aAAA;AD6CJ;AC3CI;EACE,cAAA;AD6CN;AC3CI;EACE,yBAlFM;EAmFN,YAAA;AD6CN;ACzCE;EACE,yBAzFY;EA0FZ,YAAA;AD2CJ;ACzCI;EAJF;IAKI,gBAAA;ED4CJ;AACF;ACzCE;EACE,yBAlGY;EAmGZ,YAAA;AD2CJ;;ACvCA;EACE,cAAA;EACA,WAAA;EACA,iBAAA;AD0CF;;ACvCA;EACE,gBAAA;EACA,kBAAA;EACA,oBAAA;AD0CF;;ACvCA;EACE,aAAA;EACA,mBAAA;EACA,cAAA;EACA,mBAAA;AD0CF;ACxCE;EACE,aAAA;EACA,qBAAA;EACA,eAAA;AD0CJ;ACvCE;EACE,SAAA;EACA,kBAAA;ADyCJ;ACvCI;EAJF;IAKI,gBAAA;ED0CJ;AACF;ACvCE;EACE,gBAAA;EACA,qBAAA;EACA,8BAAA;ADyCJ","sourcesContent":["html,\r\nbody {\r\n  margin: 0;\r\n  padding: 0;\r\n  box-sizing: border-box;\r\n  font-family: Roboto;\r\n}\r\n\r\nbody.disable-scroll {\r\n  overflow: hidden;\r\n}\r\n\r\n.cc-container {\r\n  position: fixed;\r\n  top: 0;\r\n  left: 0;\r\n  width: 100vw;\r\n  height: 100vh;\r\n}\r\n\r\n.cc-modalBox {\r\n  width: 45rem;\r\n  max-width: 85%;\r\n  height: auto;\r\n  max-height: 90%;\r\n  padding: 10px;\r\n  border-radius: 5px;\r\n}\r\n\r\n.cc-modal-title {\r\n  margin: 0;\r\n}\r\n\r\n.list-item {\r\n  position: absolute;\r\n  left: 0px;\r\n  width: calc(100% - 6px);\r\n}\r\n\r\n.cc-viewport {\r\n  scrollbar-color: #b1bccc transparent;\r\n  scrollbar-width: thin;\r\n\r\n  &::-webkit-scrollbar {\r\n    width: 5px;\r\n    height: 5px;\r\n  }\r\n\r\n  &::-webkit-scrollbar-thumb {\r\n    border-radius: 10px;\r\n    background-color: #b1bccc;\r\n  }\r\n}\r\n","@import './layout.scss';\r\n@import './base.scss';\r\n\r\n@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');\r\n","$red-cancel: rgb(196, 95, 95);\r\n$green-confirm: rgb(77, 163, 69);\r\n$blue-save: rgb(69, 118, 163);\r\n\r\n.cc-container {\r\n  z-index: 1000;\r\n  display: flex;\r\n  justify-content: center;\r\n  align-items: center;\r\n  background-color: rgba(0, 0, 0, 0);\r\n\r\n  -webkit-transition: all 0.6s linear;\r\n  -o-transition: all 0.6s linear;\r\n  transition: all 300ms linear;\r\n\r\n  &.show {\r\n    backdrop-filter: blur(2px);\r\n    opacity: 1;\r\n    background-color: rgba(0, 0, 0, 0.521);\r\n  }\r\n\r\n  &.hide {\r\n    opacity: 0;\r\n    display: none;\r\n  }\r\n}\r\n\r\n.cc-modalBox {\r\n  background-color: white;\r\n  box-shadow: 5px 4px 5px rgba(0, 0, 0, 0.25);\r\n}\r\n\r\n.cc-modalHeader {\r\n  text-align: center;\r\n  padding: 2px 0 8px 0;\r\n  border-bottom: 1px solid blue;\r\n}\r\n\r\n.cc-description {\r\n  margin-top: 10px;\r\n  font-size: 0.9em;\r\n  padding: 10px 0 12px 0;\r\n}\r\n\r\n.cc-buttonsWrapper {\r\n  display: flex;\r\n\r\n  &.btns-main {\r\n    padding: 20px 0;\r\n    justify-content: center;\r\n  }\r\n}\r\n\r\n.ml-auto {\r\n  margin-left: auto;\r\n}\r\n\r\n.btn {\r\n  cursor: pointer;\r\n  width: auto;\r\n  border-radius: 3px;\r\n  padding: 0.2em 0.5em;\r\n  background-color: white;\r\n  border: none;\r\n  box-shadow: 1px 1px 4px 0px rgba(0, 0, 0, 0.521);\r\n  font-family: Roboto;\r\n  font-size: 1em;\r\n\r\n  &.btn-close {\r\n    margin-left: 10px;\r\n    &:hover {\r\n      background-color: $red-cancel;\r\n      color: white;\r\n    }\r\n  }\r\n\r\n  &.btn-save {\r\n    margin-left: 10px;\r\n    display: none;\r\n\r\n    &.show {\r\n      display: block;\r\n    }\r\n    &:hover {\r\n      background-color: $blue-save;\r\n      color: white;\r\n    }\r\n  }\r\n\r\n  &.accepted {\r\n    background-color: $green-confirm;\r\n    color: white;\r\n\r\n    @media (max-width: 425px) {\r\n      font-size: 0.9em;\r\n    }\r\n  }\r\n\r\n  &.btn-accept:hover {\r\n    background-color: $green-confirm;\r\n    color: white;\r\n  }\r\n}\r\n\r\n.cc-viewport {\r\n  overflow: auto;\r\n  width: 100%;\r\n  padding-left: 5px;\r\n}\r\n\r\n.cc-content {\r\n  overflow: hidden;\r\n  position: relative;\r\n  padding-bottom: 15px;\r\n}\r\n\r\n.list-item {\r\n  display: flex;\r\n  align-items: center;\r\n  margin: 10px 0;\r\n  padding-right: 10px;\r\n\r\n  &--info {\r\n    display: flex;\r\n    align-items: baseline;\r\n    flex-wrap: wrap;\r\n  }\r\n\r\n  &--title {\r\n    margin: 0;\r\n    margin-right: 10px;\r\n\r\n    @media (max-width: 425px) {\r\n      font-size: 0.9em;\r\n    }\r\n  }\r\n\r\n  &--link {\r\n    font-size: 0.8em;\r\n    text-decoration: none;\r\n    color: rgba(24, 24, 24, 0.575);\r\n  }\r\n}\r\n"],"sourceRoot":""}]);
+___CSS_LOADER_EXPORT___.push([module.id, "html,\nbody {\n  margin: 0;\n  padding: 0;\n  box-sizing: border-box;\n  font-family: Roboto;\n}\n\nbody.disable-scroll {\n  overflow: hidden;\n}\n\n.cc-container {\n  position: fixed;\n  top: 0;\n  left: 0;\n  width: 100vw;\n  height: 100vh;\n}\n\n.cc-modalBox {\n  width: 45rem;\n  max-width: 85%;\n  height: auto;\n  max-height: 96%;\n  padding: 10px;\n  border-radius: 5px;\n}\n\n.cc-modal-title {\n  margin: 0;\n}\n\n.list-item {\n  position: absolute;\n  left: 0px;\n  width: calc(100% - 6px);\n}\n\n.cc-viewport {\n  scrollbar-color: #b1bccc transparent;\n  scrollbar-width: thin;\n}\n.cc-viewport::-webkit-scrollbar {\n  width: 5px;\n  height: 5px;\n}\n.cc-viewport::-webkit-scrollbar-thumb {\n  border-radius: 10px;\n  background-color: #b1bccc;\n}\n\n.cc-container {\n  z-index: 1000;\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  background-color: rgba(0, 0, 0, 0);\n  -webkit-transition: all 0.6s linear;\n  -o-transition: all 0.6s linear;\n  transition: all 300ms linear;\n}\n.cc-container.show {\n  backdrop-filter: blur(2px);\n  opacity: 1;\n  background-color: rgba(0, 0, 0, 0.521);\n}\n.cc-container.hide {\n  opacity: 0;\n  display: none;\n}\n\n.cc-modalBox {\n  background-color: white;\n  box-shadow: 5px 4px 5px rgba(0, 0, 0, 0.25);\n}\n\n.cc-modalHeader {\n  text-align: center;\n  padding: 2px 0 8px 0;\n  border-bottom: 1px solid blue;\n}\n\n.cc-description {\n  margin-top: 10px;\n  font-size: 0.9em;\n  padding: 10px 0 12px 0;\n}\n\n.cc-buttonsWrapper {\n  display: flex;\n}\n.cc-buttonsWrapper.btns-main {\n  padding: 20px 0;\n  justify-content: center;\n  border-radius: 5px;\n  border-top: 1px solid #0000ff40;\n}\n@media (max-width: 320px) {\n  .cc-buttonsWrapper.btns-main {\n    padding: 10px 0;\n  }\n}\n\n.ml-auto {\n  margin-left: auto;\n}\n\n.btn {\n  cursor: pointer;\n  width: auto;\n  border-radius: 3px;\n  padding: 0.2em 0.5em;\n  background-color: white;\n  border: none;\n  box-shadow: 1px 1px 4px 0px rgba(0, 0, 0, 0.521);\n  font-family: Roboto;\n  font-size: 1em;\n}\n.btn.btn-close {\n  margin-left: 20px;\n}\n.btn.btn-close:hover {\n  background-color: #c45f5f;\n  color: white;\n}\n.btn.btn-save {\n  margin-left: 20px;\n  display: none;\n}\n.btn.btn-save.show {\n  display: block;\n}\n.btn.btn-save:hover {\n  background-color: #4576a3;\n  color: white;\n}\n.btn.accepted {\n  background-color: #4da345;\n  color: white;\n}\n@media (max-width: 425px) {\n  .btn.accepted {\n    font-size: 0.9em;\n  }\n}\n.btn.btn-accept:hover {\n  background-color: #4da345;\n  color: white;\n}\n\n.cc-viewport {\n  overflow: auto;\n  width: 100%;\n  padding-left: 5px;\n}\n\n.cc-content {\n  overflow: hidden;\n  position: relative;\n  padding-bottom: 15px;\n}\n\n.list-item {\n  display: flex;\n  align-items: center;\n  margin: 10px 0;\n  padding-right: 10px;\n}\n.list-item--info {\n  display: flex;\n  align-items: baseline;\n  flex-wrap: wrap;\n}\n.list-item--title {\n  margin: 0;\n  margin-right: 10px;\n}\n@media (max-width: 425px) {\n  .list-item--title {\n    font-size: 0.9em;\n  }\n}\n.list-item--link {\n  font-size: 0.8em;\n  text-decoration: none;\n  color: rgba(24, 24, 24, 0.575);\n}", "",{"version":3,"sources":["webpack://./src/styles/layout.scss","webpack://./src/styles/main.scss","webpack://./src/styles/base.scss"],"names":[],"mappings":"AAAA;;EAEE,SAAA;EACA,UAAA;EACA,sBAAA;EACA,mBAAA;ACEF;;ADCA;EACE,gBAAA;ACEF;;ADCA;EACE,eAAA;EACA,MAAA;EACA,OAAA;EACA,YAAA;EACA,aAAA;ACEF;;ADCA;EACE,YAAA;EACA,cAAA;EACA,YAAA;EACA,eAAA;EACA,aAAA;EACA,kBAAA;ACEF;;ADCA;EACE,SAAA;ACEF;;ADCA;EACE,kBAAA;EACA,SAAA;EACA,uBAAA;ACEF;;ADCA;EACE,oCAAA;EACA,qBAAA;ACEF;ADAE;EACE,UAAA;EACA,WAAA;ACEJ;ADCE;EACE,mBAAA;EACA,yBAAA;ACCJ;;AC/CA;EACE,aAAA;EACA,aAAA;EACA,uBAAA;EACA,mBAAA;EACA,kCAAA;EAEA,mCAAA;EACA,8BAAA;EACA,4BAAA;ADiDF;AC/CE;EACE,0BAAA;EACA,UAAA;EACA,sCAAA;ADiDJ;AC9CE;EACE,UAAA;EACA,aAAA;ADgDJ;;AC5CA;EACE,uBAAA;EACA,2CAAA;AD+CF;;AC5CA;EACE,kBAAA;EACA,oBAAA;EACA,6BAAA;AD+CF;;AC5CA;EACE,gBAAA;EACA,gBAAA;EACA,sBAAA;AD+CF;;AC5CA;EACE,aAAA;AD+CF;AC7CE;EACE,eAAA;EACA,uBAAA;EACA,kBAAA;EACA,+BAAA;AD+CJ;AC7CI;EANF;IAOI,eAAA;EDgDJ;AACF;;AC5CA;EACE,iBAAA;AD+CF;;AC5CA;EACE,eAAA;EACA,WAAA;EACA,kBAAA;EACA,oBAAA;EACA,uBAAA;EACA,YAAA;EACA,gDAAA;EACA,mBAAA;EACA,cAAA;AD+CF;AC7CE;EACE,iBAAA;AD+CJ;AC9CI;EACE,yBA7EO;EA8EP,YAAA;ADgDN;AC5CE;EACE,iBAAA;EACA,aAAA;AD8CJ;AC5CI;EACE,cAAA;AD8CN;AC5CI;EACE,yBAxFM;EAyFN,YAAA;AD8CN;AC1CE;EACE,yBA/FY;EAgGZ,YAAA;AD4CJ;AC1CI;EAJF;IAKI,gBAAA;ED6CJ;AACF;AC1CE;EACE,yBAxGY;EAyGZ,YAAA;AD4CJ;;ACxCA;EACE,cAAA;EACA,WAAA;EACA,iBAAA;AD2CF;;ACxCA;EACE,gBAAA;EACA,kBAAA;EACA,oBAAA;AD2CF;;ACxCA;EACE,aAAA;EACA,mBAAA;EACA,cAAA;EACA,mBAAA;AD2CF;ACzCE;EACE,aAAA;EACA,qBAAA;EACA,eAAA;AD2CJ;ACxCE;EACE,SAAA;EACA,kBAAA;AD0CJ;ACxCI;EAJF;IAKI,gBAAA;ED2CJ;AACF;ACxCE;EACE,gBAAA;EACA,qBAAA;EACA,8BAAA;AD0CJ","sourcesContent":["html,\r\nbody {\r\n  margin: 0;\r\n  padding: 0;\r\n  box-sizing: border-box;\r\n  font-family: Roboto;\r\n}\r\n\r\nbody.disable-scroll {\r\n  overflow: hidden;\r\n}\r\n\r\n.cc-container {\r\n  position: fixed;\r\n  top: 0;\r\n  left: 0;\r\n  width: 100vw;\r\n  height: 100vh;\r\n}\r\n\r\n.cc-modalBox {\r\n  width: 45rem;\r\n  max-width: 85%;\r\n  height: auto;\r\n  max-height: 96%;\r\n  padding: 10px;\r\n  border-radius: 5px;\r\n}\r\n\r\n.cc-modal-title {\r\n  margin: 0;\r\n}\r\n\r\n.list-item {\r\n  position: absolute;\r\n  left: 0px;\r\n  width: calc(100% - 6px);\r\n}\r\n\r\n.cc-viewport {\r\n  scrollbar-color: #b1bccc transparent;\r\n  scrollbar-width: thin;\r\n\r\n  &::-webkit-scrollbar {\r\n    width: 5px;\r\n    height: 5px;\r\n  }\r\n\r\n  &::-webkit-scrollbar-thumb {\r\n    border-radius: 10px;\r\n    background-color: #b1bccc;\r\n  }\r\n}\r\n","@import './layout.scss';\r\n@import './base.scss';\r\n\r\n@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');\r\n","$red-cancel: rgb(196, 95, 95);\r\n$green-confirm: rgb(77, 163, 69);\r\n$blue-save: rgb(69, 118, 163);\r\n\r\n.cc-container {\r\n  z-index: 1000;\r\n  display: flex;\r\n  justify-content: center;\r\n  align-items: center;\r\n  background-color: rgba(0, 0, 0, 0);\r\n\r\n  -webkit-transition: all 0.6s linear;\r\n  -o-transition: all 0.6s linear;\r\n  transition: all 300ms linear;\r\n\r\n  &.show {\r\n    backdrop-filter: blur(2px);\r\n    opacity: 1;\r\n    background-color: rgba(0, 0, 0, 0.521);\r\n  }\r\n\r\n  &.hide {\r\n    opacity: 0;\r\n    display: none;\r\n  }\r\n}\r\n\r\n.cc-modalBox {\r\n  background-color: white;\r\n  box-shadow: 5px 4px 5px rgba(0, 0, 0, 0.25);\r\n}\r\n\r\n.cc-modalHeader {\r\n  text-align: center;\r\n  padding: 2px 0 8px 0;\r\n  border-bottom: 1px solid blue;\r\n}\r\n\r\n.cc-description {\r\n  margin-top: 10px;\r\n  font-size: 0.9em;\r\n  padding: 10px 0 12px 0;\r\n}\r\n\r\n.cc-buttonsWrapper {\r\n  display: flex;\r\n\r\n  &.btns-main {\r\n    padding: 20px 0;\r\n    justify-content: center;\r\n    border-radius: 5px;\r\n    border-top: 1px solid #0000ff40;\r\n\r\n    @media (max-width: 320px) {\r\n      padding: 10px 0;\r\n    }\r\n  }\r\n}\r\n\r\n.ml-auto {\r\n  margin-left: auto;\r\n}\r\n\r\n.btn {\r\n  cursor: pointer;\r\n  width: auto;\r\n  border-radius: 3px;\r\n  padding: 0.2em 0.5em;\r\n  background-color: white;\r\n  border: none;\r\n  box-shadow: 1px 1px 4px 0px rgba(0, 0, 0, 0.521);\r\n  font-family: Roboto;\r\n  font-size: 1em;\r\n\r\n  &.btn-close {\r\n    margin-left: 20px;\r\n    &:hover {\r\n      background-color: $red-cancel;\r\n      color: white;\r\n    }\r\n  }\r\n\r\n  &.btn-save {\r\n    margin-left: 20px;\r\n    display: none;\r\n\r\n    &.show {\r\n      display: block;\r\n    }\r\n    &:hover {\r\n      background-color: $blue-save;\r\n      color: white;\r\n    }\r\n  }\r\n\r\n  &.accepted {\r\n    background-color: $green-confirm;\r\n    color: white;\r\n\r\n    @media (max-width: 425px) {\r\n      font-size: 0.9em;\r\n    }\r\n  }\r\n\r\n  &.btn-accept:hover {\r\n    background-color: $green-confirm;\r\n    color: white;\r\n  }\r\n}\r\n\r\n.cc-viewport {\r\n  overflow: auto;\r\n  width: 100%;\r\n  padding-left: 5px;\r\n}\r\n\r\n.cc-content {\r\n  overflow: hidden;\r\n  position: relative;\r\n  padding-bottom: 15px;\r\n}\r\n\r\n.list-item {\r\n  display: flex;\r\n  align-items: center;\r\n  margin: 10px 0;\r\n  padding-right: 10px;\r\n\r\n  &--info {\r\n    display: flex;\r\n    align-items: baseline;\r\n    flex-wrap: wrap;\r\n  }\r\n\r\n  &--title {\r\n    margin: 0;\r\n    margin-right: 10px;\r\n\r\n    @media (max-width: 425px) {\r\n      font-size: 0.9em;\r\n    }\r\n  }\r\n\r\n  &--link {\r\n    font-size: 0.8em;\r\n    text-decoration: none;\r\n    color: rgba(24, 24, 24, 0.575);\r\n  }\r\n}\r\n"],"sourceRoot":""}]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -495,8 +495,7 @@ const getVendors = (url) => __awaiter(void 0, void 0, void 0, function* () {
     const res = yield (0,_utils_utils__WEBPACK_IMPORTED_MODULE_0__.getJSON)(url);
     return res.vendors;
 });
-const url = 'https://optad360.mgr.consensu.org/cmp/v2/vendor-list.json';
-const init = (window) => __awaiter(void 0, void 0, void 0, function* () {
+const init = (window, url) => __awaiter(void 0, void 0, void 0, function* () {
     const consentName = 'gdpr_consent';
     const vendors = yield getVendors(url);
     const cookieConsentController = new _modal__WEBPACK_IMPORTED_MODULE_1__.CookieConsentModal(window, window.document.body, vendors, {
@@ -634,9 +633,8 @@ __webpack_require__.r(__webpack_exports__);
 class VirtualScroll {
     constructor(rowsData, viewportHeight, rowHeight, nodePadding, setVendors) {
         this.rows = {};
-        this.rowsData = rowsData;
-        this.totalContentHeight = Object.keys(rowsData).length * rowHeight;
-        this.itemCount = Object.keys(rowsData).length;
+        this.vendorsList = Object.keys(rowsData).map((key) => rowsData[key]);
+        this.itemCount = this.vendorsList.length;
         this.viewportHeight = viewportHeight;
         this.rowHeight = rowHeight;
         this.nodePadding = nodePadding;
@@ -645,10 +643,26 @@ class VirtualScroll {
         this.setVendors = setVendors;
     }
     onScroll() {
-        this.renderViewport();
+        const viewport = window.document.querySelector('.cc-viewport');
+        const startNode = this.getStartNode(viewport);
+        const endNode = this.getEndNode(startNode);
+        // remove rows not in viewport
+        for (let i in this.rows) {
+            if (parseInt(i) < startNode || parseInt(i) > endNode) {
+                this.rows[i].remove();
+                delete this.rows[i];
+            }
+        }
+        //add rows
+        for (let i = startNode; i <= endNode; i++) {
+            if (!this.rows[i]) {
+                this.rows[i] = this.renderRow(this.vendorsList[i], i);
+            }
+        }
     }
     handleClick(i, id) {
         const button = window.document.getElementById(`vendor-${i}`);
+        // keep track of accepted vendors
         if (!this.acceptedVendors.includes(id)) {
             this.acceptedVendors.push(id);
             button === null || button === void 0 ? void 0 : button.classList.add('accepted');
@@ -666,6 +680,7 @@ class VirtualScroll {
         var _a;
         const row = window.document.createElement('div');
         row.classList.add('list-item');
+        // based on rowHeight calculate position
         row.style.height = `${this.rowHeight}`;
         row.style.top = `${i * this.rowHeight + 10}`;
         const vendorInfo = window.document.createElement('div');
@@ -696,41 +711,46 @@ class VirtualScroll {
         (_a = this.content) === null || _a === void 0 ? void 0 : _a.appendChild(row);
         return row;
     }
-    renderViewport() {
-        const viewport = window.document.querySelector('.cc-viewport');
-        const vendorsList = Object.keys(this.rowsData).map((key) => {
-            return this.rowsData[key];
-        });
+    getStartNode(viewport) {
+        // get first node to render, with nodePadding in account
+        //a/ if current scrollTop = 92 and rowHeight=30 first node would be 3
+        //b/ but with nodePadding = 2 we want to start rendering two nodes before to give some better scrolling experience
+        // but we cannot allow for startNode to be negative, so if a-b < 0 startNode will be 0
         let startNode = Math.floor(viewport.scrollTop / this.rowHeight) - this.nodePadding;
         startNode = Math.max(0, startNode);
+        return startNode;
+    }
+    getEndNode(startNode) {
+        // count hany many nodes we can render
+        // add paddings at the beginning and end
         let renderedNodeCount = Math.ceil(this.viewportHeight / this.rowHeight) + 2 * this.nodePadding;
         renderedNodeCount = Math.min(this.itemCount - startNode, renderedNodeCount);
-        // remove rows not in viewport
-        for (let i in this.rows) {
-            if (parseInt(i) < startNode ||
-                parseInt(i) > startNode + renderedNodeCount) {
-                this.rows[i].remove();
-                delete this.rows[i];
-            }
-        }
-        //add rows
-        for (let i = startNode; i <= startNode + renderedNodeCount; i++) {
-            if (!this.rows[i]) {
-                this.rows[i] = this.renderRow(vendorsList[i], i);
-            }
-        }
+        // return final endNode
+        return startNode + renderedNodeCount;
     }
     init() {
+        // build viewport and content
+        const totalContentHeight = this.vendorsList.length * this.rowHeight;
         const container = window.document.createElement('div');
         this.viewport = window.document.createElement('div');
         this.viewport.classList.add('cc-viewport');
         this.viewport.style.height = `${this.viewportHeight}`;
         this.content = window.document.createElement('div');
         this.content.classList.add('cc-content');
-        this.content.style.height = `${this.totalContentHeight}`;
+        this.content.style.height = `${totalContentHeight}`;
         this.viewport.appendChild(this.content);
+        // add event to listen for scroll and recalculate rows
         this.viewport.onscroll = this.onScroll.bind(this);
         const scrollBox = container.appendChild(this.viewport);
+        // calculate the initial rows to show
+        const startNode = this.getStartNode(this.viewport);
+        const endNode = this.getEndNode(startNode);
+        //add rows
+        for (let i = startNode; i <= endNode; i++) {
+            if (!this.rows[i]) {
+                this.rows[i] = this.renderRow(this.vendorsList[i], i);
+            }
+        }
         return scrollBox;
     }
 }
@@ -850,8 +870,9 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _models_index__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./models/index */ "./src/models/index.ts");
 
 
+const url = 'https://optad360.mgr.consensu.org/cmp/v2/vendor-list.json';
 window.onload = () => {
-    _models_index__WEBPACK_IMPORTED_MODULE_1__.init(window);
+    _models_index__WEBPACK_IMPORTED_MODULE_1__.init(window, url);
 };
 
 })();

@@ -17,6 +17,13 @@ $blue-save: rgb(69, 118, 163);
     backdrop-filter: blur(2px);
     opacity: 1;
     background-color: rgba(0, 0, 0, 0.521);
+    background-image: linear-gradient(
+      to right,
+      rgba(0, 0, 0, 0.4),
+      rgba(0, 0, 0, 0.4)
+    );
+    filter: blur(2px);
+    -webkit-filter: blur(2px);
   }
 
   &.hide {
@@ -48,6 +55,12 @@ $blue-save: rgb(69, 118, 163);
   &.btns-main {
     padding: 20px 0;
     justify-content: center;
+    border-radius: 5px;
+    border-top: 1px solid #0000ff40;
+
+    @media (max-width: 320px) {
+      padding: 10px 0;
+    }
   }
 }
 
@@ -67,7 +80,7 @@ $blue-save: rgb(69, 118, 163);
   font-size: 1em;
 
   &.btn-close {
-    margin-left: 10px;
+    margin-left: 20px;
     &:hover {
       background-color: $red-cancel;
       color: white;
@@ -75,7 +88,7 @@ $blue-save: rgb(69, 118, 163);
   }
 
   &.btn-save {
-    margin-left: 10px;
+    margin-left: 20px;
     display: none;
 
     &.show {

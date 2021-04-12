@@ -24,9 +24,7 @@ const getVendors = async (url: string) => {
   return res.vendors;
 };
 
-const url = 'https://optad360.mgr.consensu.org/cmp/v2/vendor-list.json';
-
-export const init = async (window: Window & typeof globalThis) => {
+export const init = async (window: Window & typeof globalThis, url: string) => {
   const consentName = 'gdpr_consent';
 
   const vendors = await getVendors(url);
